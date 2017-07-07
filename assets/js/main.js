@@ -1,7 +1,7 @@
 /*alert("hola");*/
 $(document).ready(function() {
 
-    for (var i = 1; i < 719; i++) {
+    for (var i = 1; i < 20; i++) {
         var pokePic = $("<img src=http://pokeapi.co/media/img/" + i + ".png id=" + i + ">");
         $('div.pokemon').append(pokePic);
     }
